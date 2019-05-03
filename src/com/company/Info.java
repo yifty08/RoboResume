@@ -1,29 +1,15 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Info {
-    private String name, email;
 
-    public Info() {
-    }
 
-    public Info (String name, String email, Education education) {
-        this.name = name;
-        this.email = email;
-    }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
-    public String getEmail() {
-        return email;
-    }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+
+
+
 }

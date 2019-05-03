@@ -1,6 +1,6 @@
 package com.company;
 
-public class Education extends Info {
+public class Education {
 
     private String degree, major, uniName;
     private int gradYear;
@@ -46,5 +46,10 @@ public class Education extends Info {
 
     public void setGradYear(int gradYear) {
         this.gradYear = gradYear;
+    }
+
+    public String toString() {
+        return "Education \n" + getDegree() + " in " + getMajor()
+                + ", \n" + getUniName() + ", " + getGradYear();
     }
 }
