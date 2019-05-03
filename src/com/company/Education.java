@@ -49,7 +49,7 @@ public class Education {
     }
 
     public String toString() {
-        return "Education \n" + getDegree() + " in " + getMajor()
+        return "\nEducation \n" + getDegree() + " in " + getMajor()
                 + ", \n" + getUniName() + ", " + getGradYear();
     }
 }
