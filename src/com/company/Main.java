@@ -32,6 +32,7 @@ public class Main {
 
         System.out.print("Enter your graduation year: ");
         int gradYear = scanner.nextInt();
+        scanner.nextLine();
 
         Education education1 = new Education(degree, major, uniName, gradYear);
         info1.add(education1.toString());
@@ -47,15 +48,17 @@ public class Main {
 
         System.out.print("Enter your start year: ");
         int startDate = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.print("Enter your end year: ");
         int endDate = scanner.nextInt();
+        scanner.nextLine();
 
         Exp experience1 = new Exp(company, jobTitle, description, startDate, endDate);
         info1.add(experience1.toString());
 
 
-        System.out.print("Enter your skills: \n Skill 1: ");
+        System.out.print("Enter your skills: \nSkill 1: ");
         String skill1 = scanner.nextLine();
         System.out.print("Rate your skill 1: ");
         String rate1 = scanner.nextLine();
