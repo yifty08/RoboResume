@@ -27,14 +27,33 @@ public class Main {
         System.out.print("Enter your major: ");
         String major = scanner.nextLine();
 
-        System.out.print("Enter your uniName: ");
+        System.out.print("Enter your university name: ");
         String uniName = scanner.nextLine();
 
-        System.out.print("Enter your gradYear: ");
+        System.out.print("Enter your graduation year: ");
         int gradYear = scanner.nextInt();
 
         Education education1 = new Education(degree, major, uniName, gradYear);
         info1.add(education1.toString());
+
+
+        System.out.print("Enter your company name: ");
+        String company = scanner.nextLine();
+
+        System.out.print("Enter your job title: ");
+        String jobTitle = scanner.nextLine();
+
+        System.out.print("Enter your job description: ");
+        String description = scanner.nextLine();
+
+        System.out.print("Enter your start year: ");
+        int startDate = scanner.nextInt();
+
+        System.out.print("Enter your end year: ");
+        int endDate = scanner.nextInt();
+
+        Exp experience1 = new Exp(company, jobTitle, description, startDate, endDate);
+        info1.add(experience1.toString());
 
         for (String i : info1) {
             System.out.println(i);
