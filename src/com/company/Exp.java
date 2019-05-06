@@ -57,7 +57,6 @@ public class Exp {
         this.endDate = endDate;
     }
 
-
     public String toString() {
         return "\nExperience \n" + getJobTitle() + " \n" + getCompany()
                 + ", " + getStartDate() + " - " + getEndDate()

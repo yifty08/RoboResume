@@ -36,7 +36,6 @@ public class Main {
         Education education1 = new Education(degree, major, uniName, gradYear);
         info1.add(education1.toString());
 
-
         System.out.print("Enter your company name: ");
         String company = scanner.nextLine();
 
@@ -54,6 +53,25 @@ public class Main {
 
         Exp experience1 = new Exp(company, jobTitle, description, startDate, endDate);
         info1.add(experience1.toString());
+
+
+        System.out.print("Enter your skills: \n Skill 1: ");
+        String skill1 = scanner.nextLine();
+        System.out.print("Rate your skill 1: ");
+        String rate1 = scanner.nextLine();
+
+        System.out.print("Skill 2: ");
+        String skill2 = scanner.nextLine();
+        System.out.print("Rate your skill 2: ");
+        String rate2 = scanner.nextLine();
+
+        System.out.print("Skill 3: ");
+        String skill3 = scanner.nextLine();
+        System.out.print("Rate your skill 3: ");
+        String rate3 = scanner.nextLine();
+
+        Skill skills1 = new Skill(skill1, rate1, skill2, rate2, skill3, rate3);
+        info1.add(skills1.toString());
 
         for (String i : info1) {
             System.out.println(i);
