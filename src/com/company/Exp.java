@@ -60,7 +60,7 @@ public class Exp {
     public String toString() {
         return "\nExperience \n" + getJobTitle() + " \n" + getCompany()
                 + ", " + getStartDate() + " - " + getEndDate()
-                + "- " + getDescription();
+                + "\n- " + getDescription();
     }
 
 }

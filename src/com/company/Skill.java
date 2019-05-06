@@ -68,6 +68,6 @@ public class Skill {
     public String toString() {
         return "\nSkills \n" + getSkill1() + ", " + getRating1()
                 + " \n" + getSkill2() + ", " + getRating2()
-                + " \n " + getSkill3() + ", " + getRating3();
+                + " \n" + getSkill3() + ", " + getRating3();
     }
 }
